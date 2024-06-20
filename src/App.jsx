@@ -1,6 +1,6 @@
 import './App.css'
 import ShoppingList from './ShoppingList';
-
+import Clicker from './Clicker'
 
 const data = [
   { id: 1, item: "eggs", quantity: 12, completed: false },
@@ -15,6 +15,8 @@ function App() {
 
   return (
     <div>
+      <Clicker/>
+      <Clicker/>
       <ShoppingList items={data} />
 
     </div>
