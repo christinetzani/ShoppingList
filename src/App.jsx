@@ -1,6 +1,7 @@
 import './App.css'
 import ShoppingList from './ShoppingList';
-import Clicker from './Clicker'
+import Clicker from './Clicker';
+import Form from './Form';
 
 const data = [
   { id: 1, item: "eggs", quantity: 12, completed: false },
@@ -15,6 +16,7 @@ function App() {
 
   return (
     <div>
+      <Form />
       <Clicker/>
       <Clicker/>
       <ShoppingList items={data} />
